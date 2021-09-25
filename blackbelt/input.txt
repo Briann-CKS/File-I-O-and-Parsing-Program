@@ -1,0 +1,10 @@
+0,0,0
+sausages
+1,4,5
+apples
+0,0,0
+chicken
+2,4,3
+
+2,2,4
+salmon

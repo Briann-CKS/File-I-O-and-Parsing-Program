@@ -1,0 +1,5 @@
+You could've had as many food as you like, but you picked 0!
+apples,apples,apples
+You could've had as many food as you like, but you picked 0!
+This line is invisible, only the smartest one can see it, no string is found here!
+salmon,salmon,salmon,salmon,salmon,salmon
