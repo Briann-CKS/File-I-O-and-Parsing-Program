@@ -1,23 +1,31 @@
+//main.cpp
+
+// Include the libraries
 #include <sstream>
 #include <fstream>
 #include <iostream>
 #include <string>
 
+// Start main
 int main ()
 {
+	// Declare int variables and boolean variable
 	int num;
 	int times =0;
 	int sum = 0;
-	std::ifstream inFile;
+	bool isInteger = true;
+	//Declare string and stringstream variable
 	std::string currentLine;
 	std::string token;
 	std::string token1;
 	std::stringstream text; 
-	bool isInteger = true;
 	std::stringstream converter;
-	std::ofstream outFile;
 	std::stringstream line;
+	//Declare input and output file stream
+	std::ifstream inFile;
+	std::ofstream outFile;
 	
+	// Open input file
 	inFile.open ("input.txt");
 	if (inFile.is_open())
 	{
@@ -58,6 +66,7 @@ int main ()
 				{
 					outFile.open("output.txt", std::ios::app);
 				}
+
 				if (outFile.is_open())
 				{
 					outFile << text.str() << std::endl;
