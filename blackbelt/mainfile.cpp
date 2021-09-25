@@ -32,15 +32,15 @@ int main ()
 				line.clear();
 				line.str("");
 				line.str(currentLine); // Assign string to stringstream
-				converter.clear();
-				converter.str("");
 				while(getline(line, token, ',')) // Get integer string from stringstream and pass to string
 				{
+					converter.clear();
+					converter.str("");
 					converter.str(token); // Pass the token to stringstream
 					converter >> num; // Pass the token to int num to convert it to integers
 					sum += num; // Sum the integers 
-					isInteger = false; // Set the isInteger to false
 				}
+					isInteger = false; // Set the isInteger to false
 			}
 			else
 			{
