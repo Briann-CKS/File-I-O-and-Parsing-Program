@@ -1,6 +1,6 @@
 # Algorithm
 ## Goals
-The goal of this Pasing and File I/O program is to get me familiarized with the C++ process of parsing and file input/output through the basics of the fstream library. From this assignment, I learned that the getline function will be used to manipulate large pieces of data into progressively smaller chunks. Together with the stringstream function, I can also swap back and forth to 'tokenize' a large line of input and control where each piece goes.
+The goal of this Parsing and File I/O program is to get me familiarized with the C++ process of parsing and file input/output through the basics of the fstream library. From this assignment, I learned that the getline function will be used to manipulate large pieces of data into progressively smaller chunks. Together with the stringstream function, I can also swap back and forth to 'tokenize' a large line of input and control where each piece goes.
 
 In this program, I will need to use string stream and string functions to read data from a file that I have created on my own with some specific guidelines. Then, I will write a C++ program in vim to open that file and read the integers written in every line seperated by commas. Then, I have to convert the string of numbers to integers that the program can actualy read and compute in order to find the sum of these integers. With the sum of the integers, I can determine the number of times I need to print the string that comes after the line of integers on the output file.
 
